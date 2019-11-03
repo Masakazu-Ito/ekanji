@@ -1,6 +1,7 @@
 import React from 'react';
 import InputArea from './InputArea';
-import Calculator from './ Calculator';
+import Calculator from './Calculator';
+import { Link } from 'react-router-dom';
 
 class Home extends React.Component{
 	constructor(props){
@@ -40,12 +41,12 @@ class Home extends React.Component{
         console.error(error);
       });
 
-  }
+}
 
 	render(){
 		return(
 			<div>
-				<InputArea  unit="¥" funk={(e) => { this.givenPriceFunk(e); }} value={this.state.value}/>
+				<InputArea unit="¥" funk={(e) => { this.givenPriceFunk(e); }} value={this.state.value}/>
 				<InputArea unit="人数" funk={(e) => { this.givenPeopleFunk(e); }} value={this.state.value}/>
 				<Calculator price={this.state.price} people={this.state.people} onClick={this.handleClick}/>
 			</div>

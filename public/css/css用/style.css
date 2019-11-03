@@ -1,0 +1,231 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: #333333;
+}
+
+header{
+    background-color: #84c4c8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header img{
+    width: 30vw;
+    padding: 7px;
+    
+}
+
+.back{
+    position: absolute;
+    left: 15px;
+    width: 4vw;
+}
+
+#root{
+    margin: 10vh 10vw;
+    text-align: center;
+}
+
+.next{
+    background-color: #84c4c8;
+    position: absolute;
+    top: 75vh;
+    width: 50vw;
+    left: 25vw;
+    border-radius: 30px;
+    box-shadow: 5px 5px 7px rgba(0,0,0,0.1);
+}
+
+a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    margin: 10px 0;
+}
+
+.next_icon{
+    width: 10vw;
+    height: 10vw;
+    padding-right: 10px;
+}
+
+
+
+/* top */
+
+.top{
+    margin-top: 20vh;
+}
+
+.top h5{
+    font-size: 4.5vw;
+}
+input{
+    background-color: #f7f8f8;
+    width: 80vw;
+    height: 25vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    border: none;
+    border-radius: 0;
+    outline: none;
+    font-size: 15vw;
+}
+
+form{
+    position: relative;
+}
+
+.unit_t{
+    position: absolute;
+    bottom: 10px;
+    right: 25px;
+    font-size: 7vw;
+    color: #84c4c8;
+}
+
+/* index */
+.main_charge p{
+    background-color: #f7f8f8;
+    width: 80vw;
+    height: 25vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    color: #84c4c8;
+    font-size: 12vw;
+}
+.main_charge{
+   text-align: center;
+   position: relative;
+}
+
+.block{
+    text-align: center;
+    position: relative;
+}
+
+.sub_block{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.block p{
+    background-color: #f7f8f8;
+    width: 35vw;
+    height: 25vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    color: #84c4c8;
+    font-size: 6vw;
+}
+h5{
+    margin: 3vh 0 0 0;
+    font-weight: 100;
+}
+
+.unit{
+    position: absolute;
+    bottom: 10px;
+    right: 25px;
+    font-size: 5vw;
+    color: #84c4c8;
+}
+
+.equal{
+    position: absolute;
+    left: 15vw;
+    top: 12vw;
+}
+
+.line1{
+    height: 17vw;
+    position: relative;
+    padding: 3vw;
+}
+
+.sum_amari p{
+    background-color: #f7f8f8;
+    width: 80vw;
+    height: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    color: #84c4c8;
+    font-size: 7vw;
+}
+
+.sum_amari {
+    text-align: center;
+    position: relative;
+}
+
+
+/* ルーレット */
+
+.roulett{
+    position: relative;
+    margin-top: 5vh;
+}
+
+.roulett img{
+    position: absolute;
+    top: 0;
+    left: -5vw;
+    width: 90vw;
+}
+
+.none{
+    display: none;
+}
+
+
+/* modal */
+
+.modal{
+    width: 90vw;
+    height: 70vh;
+    position: fixed;
+    top: 15vh;
+    left: 5vw;
+    background-color: #84c4c8;
+    box-shadow: 5px 5px 7px rgba(0,0,0,0.2);
+}
+
+.close{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    width: 5vw;
+
+}
+
+.white_back{
+    width: 80vw;
+    height: 50vh;
+    position: absolute;
+    top: 12vh;
+    left: 5vw;
+    background-color: white;
+    border-radius: 50px;
+}
+
+h2{
+    font-weight: 500;
+    margin-top: 7vh;
+}
+
+.mono_img{
+    width: 70vw;
+}
