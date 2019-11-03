@@ -1,7 +1,7 @@
 import React from 'react';
 import Charge from './Charge';
-import Difference from './Difference';
-import NumberOfPeople from './NumberOfPeople';
+import TotalChange from './TotalChange';
+import ParticipantNum from './ParticipantNum';
 import GoRoulette from './GoRoulette';
 
 class Confirm extends React.Component{
@@ -11,13 +11,14 @@ class Confirm extends React.Component{
   }
 
 render(){
-  const pay = 3000;//受け取る
+  const individual_fee = 3000;//受け取る
+  const total_change = 2122;
 
     return(
       <div>
-        <Charge charge={pay} />
-        <Difference difference={pay - this.props.price/this.props.people}　/>
-        <NumberOfPeople People={this.props.people}/>
+        <Charge individual_fee={individual_fee} />
+        <TotalChange total_change= {total_change}　/>
+        <ParticipantNum participant_num={this.props.participant_num}/>
         <GoRoulette />
       </div>
     );

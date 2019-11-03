@@ -1,6 +1,6 @@
 import React from 'react';
 
-class Difference extends React.Component{
+class TotalChange extends React.Component{
     constructor(props){
         super(props);
         this.state = {value: ''}
@@ -8,10 +8,10 @@ class Difference extends React.Component{
 render(){
     return(
         <div>
-            <p>差額(一人分){this.props.difference}¥</p>
+            <p>差額(一人分){this.props.total_change}¥</p>
         </div>
     );
 }
 }
 
-export default Difference;
+export default TotalChange;

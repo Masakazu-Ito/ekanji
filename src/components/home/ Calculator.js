@@ -8,8 +8,8 @@ class  Calculator extends React.Component{
   }
 
   render(){
-    console.log(this.props.price);
-    console.log(this.props.people);
+    console.log(this.props.total_fee);
+    console.log(this.props.participant_num);
     return(
       <div>
         <ul>
@@ -17,8 +17,8 @@ class  Calculator extends React.Component{
             <Link to={{
               pathname: './Confirm',
               // props:{
-              //   price: 'this.props.price',
-              //   people: 'this.props.people'
+              //   total_fee: 'this.props.total_fee',
+              //   participant_num: 'this.props.participant_num'
               // }
             }}
             >割り勘</Link>

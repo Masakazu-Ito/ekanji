@@ -9,7 +9,7 @@ class Charge extends React.Component{
 	render(){
 		return(
 			<div>
-				<p>一人当たり{this.props.charge}¥</p>
+				<p>一人当たり{this.props.individual_fee}¥</p>
 			</div>
 		);
 	}

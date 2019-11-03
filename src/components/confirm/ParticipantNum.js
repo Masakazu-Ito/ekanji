@@ -1,6 +1,6 @@
 import React from 'react';
 
-class NumberOfPeople extends React.Component{
+class ParticipantNum extends React.Component{
     constructor(props){
         super(props);
         this.state = {value: ''}
@@ -8,10 +8,10 @@ class NumberOfPeople extends React.Component{
 render(){
     return(
         <div>
-            <p>人数{this.props.numberOfPeople}人</p>
+            <p>人数{this.props.participant_num}人</p>
         </div>
     );
 }
 }
 
-export default NumberOfPeople;
+export default ParticipantNum;
