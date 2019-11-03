@@ -1,5 +1,5 @@
 ## TODO
-- roulette 3:Lotterycomponentを作る 
+- roulette 2:Lotterycomponentを作る 
 - roulette:Resultcompomemtを作る
 - roulette:HomeButtoncomponent を作る
 - Home 3:API01を叩く
