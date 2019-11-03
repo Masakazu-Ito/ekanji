@@ -12,7 +12,7 @@ class Confirm extends React.Component{
 
 render(){
   const pay = 3000;//受け取る
-  console.log(this.props.props.price);
+  console.log(this.props.price);
   console.log(this.props.people);
 
     return(
