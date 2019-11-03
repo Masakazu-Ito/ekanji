@@ -22,7 +22,7 @@ class Home extends React.Component{
 
 	handleClick = (e) => {
     e.preventDefault();
-    const method = "POST";
+    const method = "GET";
     const body = new FormData(document.getElementById('form'));
 
     return fetch('url', {
@@ -32,7 +32,7 @@ class Home extends React.Component{
       .then((response) => response.json())
       .then((responseJson) => {
         this.setState({
-          inputText:''
+          total:''
         });
         console.log(responseJson);
       })
