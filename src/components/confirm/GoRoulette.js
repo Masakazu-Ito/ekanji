@@ -11,9 +11,7 @@ class GoRoulette extends React.Component{
 	render(){
 		return(
 			<div>
-				<ul>
-					<li><Link to='./Roulette'>ルーレットへ</Link></li>
-				</ul>
+					<p><Link to='./Roulette'>ルーレットへ</Link></p>
 			</div>
 		);
 	}

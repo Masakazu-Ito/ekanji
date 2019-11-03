@@ -8,7 +8,7 @@ class TotalChange extends React.Component{
 render(){
     return(
         <div>
-            <p>差額(一人分){this.props.total_change}¥</p>
+            <p>あまり:{this.props.total_change}¥</p>
         </div>
     );
 }

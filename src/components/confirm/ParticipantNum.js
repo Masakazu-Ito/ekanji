@@ -8,7 +8,8 @@ class ParticipantNum extends React.Component{
 render(){
     return(
         <div>
-            <p>人数{this.props.participant_num}人</p>
+            <p>人数:6人</p>
+            {/* <p>人数:{this.props.participant_num}人</p> */}
         </div>
     );
 }

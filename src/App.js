@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Route, Link,Switch } from 'react-router-dom'
+import { BrowserRouter, Route,Switch } from 'react-router-dom'
 import Home from './components/home/Home';
 import Confirm from './components/confirm/Confirm';
 import Roulette from './components/roulette/Roulette';

@@ -24,7 +24,7 @@ class Home extends React.Component{
     e.preventDefault();
     const method = "GET";
 
-    return fetch('url', {
+    return fetch('http://3.114.10.127/calc', {
       method,
     })
       .then((response) => response.json())
